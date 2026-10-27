@@ -1,0 +1,4 @@
+# Copied to ~/.config/noctalia/config.toml. Everything not set here keeps Noctalia's default.
+
+[shell]
+polkit_agent = true # password pop-ups (off by default)
