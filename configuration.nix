@@ -36,8 +36,7 @@
     LC_TIME = "es_ES.UTF-8";
   };
 
-  # Login screen, then niri with Noctalia on top.
-  services.displayManager.gdm.enable = true;
+  # niri with Noctalia on top. No login screen: log in on the text console and run niri-session.
   programs.niri.enable = true;
 
   # Keyboard layout. niri reads it from here as long as its own xkb section is empty.
