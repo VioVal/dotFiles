@@ -24,6 +24,7 @@ alias zen="~/zen/zen"
 alias time="/usr/bin/time"
 alias volume="pactl set-sink-volume alsa_output.usb-Logitech_PRO_000000000000-00.analog-stereo"
 alias vlc="org.videolan.VLC"
+alias niri="niri-session"
 
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
 autoload -Uz compinit && compinit
